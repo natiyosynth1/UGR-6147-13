@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+    background-color: #797e8f;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: 30%;
+    display: flex;
+    
+
+  }
+  .left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    background-color: or;
+  }
+  .right {
+    padding: 10%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    padding: 5px;
+    width: 30%;
+  }
+  .rightside {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: coral;
+    padding: 10px;
+    width: 100px;
+    border: none;
+  }
+  .form {
+    display: block;
+  }
+  .form > input {
+    display: block;
+  }
+  h4 {
+    font-weight: 2rem;
+  }
+  .left > div {
+    background-color: #bfbcbc;
+    padding: 30px;
+    margin: 30px;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  .bl {
+    color: #4680c2;
+  }
+  label {
+    display: inline;
+  }
+  .signup-btn{
+    background-color: coral;
+    top: 20px;
+    right: 0px;
+  margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+  }
+  .github{
+    background-color: #e0ac1c;
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+footer {
+   
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footerd {
+    
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 20px 30px;
+}
+
+.footerd .footer-left, .footerd .footer-center, .footerd .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footerd .footer-left {
+    width: 30%;
+}
+
+.footerd h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footerd h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footerd .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footerd .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerd .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footerd .footer-center {
+    width: 35%;
+}
+
+.footerd .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footerd .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footerd .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footerd .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footerd .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+
+
+.footerd .footer-right {
+    width: 30%;
+}
+
+.footerd .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footerd .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footerd .footer-icons {
+    margin-top: 25px;
+}
+.footer-icons{
+    display: flex;
+}
+
+.footerd .footer-icons a {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footerd .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footerd .footer-left, .footerd .footer-center, .footerd .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footerd .footer-center i {
+        margin-left: 0;
+    }
+}       
+        
+
+
